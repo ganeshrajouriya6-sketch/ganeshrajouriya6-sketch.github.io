@@ -1,1 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoinTask - Play & Earn Rewards</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    body {
+      background-color: #f4fbf7;
+      color: #111827;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #d1fae5;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #065f46;
+    }
+    .brand-badge {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: #ffffff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.1rem;
+    }
+    .nav-btn {
+      background: #059669;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .hero {
+      max-width: 900px;
+      margin: 48px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .pill {
+      display: inline-block;
+      background: #d1fae5;
+      color: #065f46;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-size: 2.3rem;
+      color: #064e3b;
+      margin-bottom: 14px;
+      line-height: 1.2;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      color: #4b5563;
+      max-width: 620px;
+      margin: 0 auto 28px;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: #10b981;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 700;
+      box-shadow: 0 6px 18px rgba(16, 185, 129, 0.28);
+    }
+    .cta-btn:hover {
+      background: #059669;
+    }
+    .features {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #d1fae5;
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    }
+    .card h3 {
+      color: #065f46;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+    .card p {
+      color: #4b5563;
+      font-size: 0.92rem;
+    }
+    .info-box {
+      max-width: 920px;
+      margin: 40px auto;
+      padding: 24px;
+      background: #ffffff;
+      border: 1px solid #d1fae5;
+      border-radius: 14px;
+    }
+    .info-box h2 {
+      color: #065f46;
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+    }
+    .info-box p {
+      color: #4b5563;
+      font-size: 0.92rem;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 28px 20px;
+      color: #6b7280;
+      font-size: 0.88rem;
+      border-top: 1px solid #d1fae5;
+      background: #ffffff;
+      margin-top: 48px;
+    }
+    footer a {
+      color: #059669;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <div class="brand">
+      <div class="brand-badge">C</div>
+      <span>CoinTask</span>
+    </div>
+    <a class="nav-btn" href="https://play.google.com/store/apps/details?id=com.cointask.app" target="_blank">Download App</a>
+  </header>
+
+  <section class="hero">
+    <span class="pill">Official Android App • Free to Play</span>
+    <h1>Play Quizzes, Solve Tasks &amp; Collect Daily Rewards</h1>
+    <p>CoinTask brings fun daily check-ins, brain-teasing quizzes, captcha challenges, and casual mini-games together in one simple reward experience.</p>
+    <a class="cta-btn" href="https://play.google.com/store/apps/details?id=com.cointask.app" target="_blank">Get it on Google Play</a>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>Daily Check-In Streak</h3>
+      <p>Open the app every day to claim streak bonuses and keep your coin balance growing.</p>
+    </div>
+    <div class="card">
+      <h3>Timed GK Quizzes</h3>
+      <p>Test your general knowledge against the clock and earn bonus coins for accurate answers.</p>
+    </div>
+    <div class="card">
+      <h3>Quick Captcha Tasks</h3>
+      <p>Complete simple daily verification challenges at your own pace with instant coin updates.</p>
+    </div>
+    <div class="card">
+      <h3>Refer &amp; Earn</h3>
+      <p>Invite your friends to join CoinTask and unlock extra referral rewards together.</p>
+    </div>
+  </section>
+
+  <section class="info-box" id="privacy">
+    <h2>App Support &amp; Privacy</h2>
+    <p><strong>Package ID:</strong> com.cointask.app</p>
+    <p>CoinTask respects user privacy and only uses standard account authentication and analytics required to maintain wallet balances, prevent abuse, and serve policy-compliant ads.</p>
+    <p>For support, feedback, or account inquiries, contact us at <a href="mailto:anoopsharma9111@gmail.com">anoopsharma9111@gmail.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 CoinTask. All rights reserved. | <a href="mailto:anoopsharma9111@gmail.com">Contact Support</a></p>
+  </footer>
+
+</body>
+</html>
